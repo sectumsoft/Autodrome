@@ -37,8 +37,8 @@ function App() {
 
   const categories = [
     {
-      name: "Engine Parts",
-      image: "https://images.pexels.com/photos/9661338/pexels-photo-9661338.jpeg",
+      name: "Car Speakers",
+      image: "https://images.pexels.com/photos/12745440/pexels-photo-12745440.jpeg",
       count: "150+ Items"
     },
     {
@@ -72,8 +72,8 @@ function App() {
     {
       id: 2,
       name: "Roots Vibrosonic Horn",
-      price: 2500,
-      originalPrice: 2999,
+      price: 850,
+      originalPrice: 999,
       image: "https://srisendurmotors.in/wp-content/uploads/2024/04/Roots-vibrosonic-horn.png",
       rating: 4.9,
       reviews: 89,
