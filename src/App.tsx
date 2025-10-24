@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import logo from './assets/logo.jpg';
-import varunImage from './assets/varun.jpg';
+import varunImage from './assets/varun.jpeg';
+import labeebImage from './assets/labeeb.jpeg';
+import rinoofImage from './assets/rinoof.jpeg';
 
 import {
   Search,
@@ -104,22 +106,22 @@ function App() {
   const testimonials = [
     {
       name: "VarunDas",
-      role: "Car Enthusiast",
+      //role: "Car Enthusiast",
  image: varunImage,      
  rating: 5,
       text: "Amazing quality products and fast delivery. My car has never performed better!"
     },
     {
-      name: "Mohammad Labeeb",
-      role: "Professional Driver",
-      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150",
+      name: "Labeeb",
+      //role: "Professional Driver",
+      image: labeebImage,
       rating: 5,
       text: "Great customer service and competitive prices. Highly recommend this shop!"
     },
     {
       name: "Rinoof",
-      role: "Mechanic",
-      image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150",
+      //role: "Mechanic",
+      image: rinoofImage,
       rating: 5,
       text: "Professional grade accessories at reasonable prices. Perfect for my workshop!"
     }
@@ -407,7 +409,7 @@ function App() {
                   />
                   <div>
                     <h4 className="font-semibold text-gray-800">{testimonial.name}</h4>
-                    <p className="text-sm text-gray-600">{testimonial.role}</p>
+                    {/* <p className="text-sm text-gray-600">{testimonial.role}</p> */}
                   </div>
                 </div>
 
